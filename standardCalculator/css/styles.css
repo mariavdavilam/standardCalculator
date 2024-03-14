@@ -1,0 +1,35 @@
+#section-button{
+    border: 3px green solid;
+    display: inline-block;
+
+}
+
+header>h1 {
+    border: 5px red solid;
+    display: inline-block;
+}
+
+#button{ 
+    border: 1px grey solid;
+    background-color: aquamarine;
+
+}
+.myclass1{
+    font-size: xx-large;
+    border: 1px purple solid;
+    background-color: rgb(196, 9, 152);
+}
+
+#body{
+ font-size: larger;
+}
+
+div[button]{color: blue;}
+
+.myclass1, #button, h1{ background-color: rgb(160, 141, 178);}
+
+section strong{ font-style: italic;}
+
+strong+span{ background-color: aqua;}
+
+h1~button{background-color: rgb(235, 79, 118);}
